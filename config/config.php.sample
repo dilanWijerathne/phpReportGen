@@ -59,7 +59,7 @@ return array(
 		//set 'enabled' to true to enable the 'email this report' functionality
 		'enabled'=>false,
 
-		'from'=>'reports@yourdomain.com',
+		'from'=>'dilan.w@findmyfare.lk',
 
 		//php's mail function
 		'method'=>'mail'
@@ -103,9 +103,9 @@ return array(
 
 			// Supports and PDO database
 			'pdo'=>array(
-				'dsn'=>'mysql:host=localhost;dbname=test',
-				'user'=>'readonly',
-				'pass'=>'password',
+				'dsn'=>'mysql:host=sql.pay.findmyfare.com;dbname=payhub_db_v1',
+				'user'=>'payhubdev1',
+				'pass'=>'6RTyQECcEvCvmXnj',
 			),
 
 			// Supports MongoDB
